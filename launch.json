@@ -1,0 +1,100 @@
+{
+  "startup": [
+    "v2",
+    "am",
+    "ss",
+    "nx",
+    "cr"
+  ],
+  "data": [
+    {
+      "name": "am",
+      "path": "d:\\dvorak\\dvorak.exe"
+    },
+    {
+      "name": "as",
+      "path": "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe"
+    },
+    {
+      "name": "vm",
+      "path": "C:\\Program Files (x86)\\VMware\\VMware Workstation\\vmware.exe"
+    },
+    {
+      "name": "cc",
+      "path": "calc.exe"
+    },
+    {
+      "name": "xa",
+      "path": "C:\\Users\\faber\\Application\\xampp\\xampp-control.exe"
+    },
+    {
+      "name": "xs",
+      "path": "C:\\Users\\faber\\Application\\xampp\\xampp_start.exe"
+    },
+    {
+      "name": "vs",
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\devenv.exe"
+    },
+    {
+      "name": "tr",
+      "path": "E:\\Projects\\RELEASE\\Java\\translate-1.12\\translate.jar"
+    },
+    {
+      "name":"ss",
+      "path":"D:\\mygz\\start.cmd",
+      "type":"cmd"
+    },
+    {
+      "name": "ch",
+      "path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "name": "ssr",
+      "path": "D:\\ShadowsocksR-4.7.0\\ShadowsocksR-dotnet4.0.exe"
+    },
+    {
+      "name": "ff",
+      "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+    },
+    {
+      "name": "v2",
+      "path": "D:\\v2rayN-Core\\v2rayN.exe"
+    },
+    {
+      "name": "hx",
+      "path": "C:\\Users\\faber\\Application\\HBuilderX\\HBuilderX.exe"
+    },
+    {
+      "name": "em",
+      "path": "E:\\Projects\\Visual Studio 2017\\Projects\\ExploreMD\\ExploreMD\\bin\\Debug\\ExploreMD.exe"
+    },
+    {
+      "name": "pe",
+      "path": "E:\\Projects\\Visual Studio 2019\\Projects\\PictureEditor\\PictureEditor\\bin\\Debug\\PictureEditor.exe"
+    },
+    {
+      "name": "re",
+      "path": "D:\\AutoHotkey_1.1.30.01\\启动映射上下键为翻页键.ahk"
+    },
+    {
+      "name": "ts",
+      "path": "E:\\Projects\\Visual Studio 2019\\Projects\\TrojanSwitcherCSharp\\TrojanSwitcherCSharp\\bin\\Debug\\TrojanSwitcherCSharp.exe"
+    },
+    {
+      "name": "ccr",
+      "path": "E:\\Projects\\Visual Studio 2019\\Projects\\CmdContainer\\CmdContainer\\bin\\Debug\\CmdContainer.exe",
+      "type": "ex"
+    },
+    {
+      "name":"nx",
+      "path":"D:\\nexus-3.30.1-01-win64\\nexus-3.30.1-01\\bin\\nexus /run",
+      "type":"cmd"
+    },
+    {
+      "name":"cr",
+      "working":"D:\\web 服务\\CoRe",
+      "path":"java -jar \"D:\\web 服务\\CoRe\\CoRe-0.0.2-SNAPSHOT.jar\"",
+      "type":"cmd"
+    }
+  ]
+}
