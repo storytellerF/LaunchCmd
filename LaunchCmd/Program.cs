@@ -22,11 +22,7 @@ namespace LaunchCmd {
 
             streamReader.Close();
             streamReader.Dispose();
-            if (startup != null || startup.Count > 0) {
-                foreach (var item in startup) {
-                    HandleCmd(item, searchResults);
-                }
-            }
+            
             while (true) {
                 string cmd = Console.ReadLine();
                 if (cmd == null) continue;
@@ -41,6 +37,12 @@ namespace LaunchCmd {
                         Console.WriteLine(item.Name + " " + item.Path);
                     }
 
+                    continue;
+                }
+                if (cmd.Equals("S")) {
+                    foreach (var item in startup) {
+                        HandleCmd(item, searchResults);
+                    }
                     continue;
                 }
                 if (cmd.Length <= 1) {

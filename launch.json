@@ -93,7 +93,7 @@
     {
       "name":"cr",
       "working":"D:\\web 服务\\CoRe",
-      "path":"java -jar \"D:\\web 服务\\CoRe\\CoRe-0.0.2-SNAPSHOT.jar\"",
+      "path":"java -Dserver.port=8088 -jar  \"D:\\web 服务\\CoRe\\CoRe-0.0.2-SNAPSHOT.jar\"",
       "type":"cmd"
     }
   ]
