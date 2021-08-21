@@ -41,7 +41,8 @@
     },
     {
       "name":"ss",
-      "path":"D:\\mygz\\start.cmd",
+      "working":"D:\\web 服务\\mygz",
+      "path":"D:\\web 服务\\mygz\\start.cmd",
       "type":"cmd"
     },
     {
@@ -87,13 +88,14 @@
     },
     {
       "name":"nx",
-      "path":"D:\\nexus-3.30.1-01-win64\\nexus-3.30.1-01\\bin\\nexus /run",
+      "working":"D:\\web 服务\\nexus-3.30.1-01-win64\\nexus-3.30.1-01\\bin\\",
+      "path":"D:\\web 服务\\nexus-3.30.1-01-win64\\nexus-3.30.1-01\\bin\\nexus /run",
       "type":"cmd"
     },
     {
       "name":"cr",
       "working":"D:\\web 服务\\CoRe",
-      "path":"java -Dserver.port=8088 -jar  \"D:\\web 服务\\CoRe\\CoRe-0.0.2-SNAPSHOT.jar\"",
+      "path":"java -Dserver.port=8088 -jar  \"D:\\web 服务\\CoRe\\CoRe-0.0.3-SNAPSHOT.jar\"",
       "type":"cmd"
     }
   ]

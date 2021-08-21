@@ -36,8 +36,8 @@
     <ApplicationIcon>space-shuttle-launch.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,11 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="launch\CMDLaunch.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="LaunchConfig.cs" />
+    <Compile Include="launch\ExploreLaunch.cs" />
+    <Compile Include="launch\JavaLaunch.cs" />
+    <Compile Include="launch\Launch.cs" />
+    <Compile Include="LaunchFactory.cs" />
+    <Compile Include="launch\RegularLaunch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchPath.cs" />
+    <Compile Include="LaunchConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

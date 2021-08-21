@@ -11,7 +11,8 @@ namespace LaunchCmd {
         static Config config;
         private static void Main() {
 
-            StreamReader streamReader = new StreamReader("../../../launch.json");
+            StreamReader streamReader = new("../../../../launch.json");
+          
             config = JsonConvert.DeserializeObject<Config>(streamReader.ReadToEnd());
 
             List<LaunchConfig> searchResults = config.data;

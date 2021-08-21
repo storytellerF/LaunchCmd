@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LaunchCmd {
-    class SearchPath {
+    class LaunchConfig {
         public string Name { get; set; }
         public string Path { get; set; }
         /// <summary>
